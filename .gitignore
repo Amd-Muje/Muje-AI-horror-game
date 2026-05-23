@@ -1,0 +1,58 @@
+# Folder yang di-generate otomatis oleh Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# File konfigurasi lokal Asset dan IDE
+/[Aa]ssets/**/*.userprefs
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Direktori cache Visual Studio dan Gradle
+.vs/
+.gradle/
+
+# File project dan solusi IDE yang di-generate otomatis (VS/Rider/Monodevelop)
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# File meta yang di-generate untuk file debug
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# File laporan crash Unity
+sysinfo.txt
+
+# File hasil Build
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# File OS (Mac & Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
