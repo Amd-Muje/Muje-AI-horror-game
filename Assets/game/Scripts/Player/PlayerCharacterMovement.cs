@@ -19,6 +19,13 @@ public class PlayerCharacterMovement : MonoBehaviour
     private bool _isSprint;
     public bool IsSprint => _isSprint;
 
+    public bool Enabled {get; private set; } = true;
+
+    public void SetEnabled(bool isEnabled)
+    {
+        Enabled = isEnabled;
+    }
+
     private void CalculateAcceleration() 
     {
 
@@ -90,10 +97,13 @@ public class PlayerCharacterMovement : MonoBehaviour
 
     public void Move()
     {
-        calculateVelocityXZ();
-        calculateVelocityY();
-        Vector3 velocity = new Vector3(_velocityXZ.x, _velocityY, _velocityXZ.z);
-        _characterController.Move(velocity);
+        if (Enabled == true)
+        {
+            calculateVelocityXZ();
+            calculateVelocityY();
+            Vector3 velocity = new Vector3(_velocityXZ.x, _velocityY, _velocityXZ.z);
+            _characterController.Move(velocity);
+        }
     }
 
     void Start()

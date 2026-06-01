@@ -6,7 +6,7 @@ public class Door : MonoBehaviour, IInteractable
     [SerializeField] private string _name;
     [SerializeField] protected Transform _doorTransform;
     [SerializeField] protected float _duration = 1f;
-    [SerializeField] protected bool _isLocked = false;
+    [SerializeField] protected bool _isLocked = true;
     [SerializeField] protected string _keyID;
 
     protected bool _isAnimating;
@@ -19,16 +19,27 @@ public class Door : MonoBehaviour, IInteractable
     public UnityEvent OnDoorOpen;
     public UnityEvent OnDoorClose;
 
-    [ContextMenu("Interact Door")]
-    public void Interact(PlayerCharacter character) 
+    public void Interact(PlayerCharacter character)
     {
-        if (_isOpen == true)
-        {
-            Close();
+        if (_isLocked == true)
+        { 
+            bool hasKey = character.Inventory.CheckItem(_keyID);
+            if (hasKey == true)
+            {
+                _isLocked = false;
+                Open();
+            }
         }
         else
         {
-            Open();
+            if (_isOpen == true)
+            {
+                Close();
+            }
+            else
+            {
+                Open();
+            }
         }
     }
 
