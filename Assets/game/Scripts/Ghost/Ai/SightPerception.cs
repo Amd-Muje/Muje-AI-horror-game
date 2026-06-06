@@ -1,0 +1,78 @@
+using UnityEngine;
+
+public class SightPerception : MonoBehaviour
+{
+    [SerializeField] private Transform _eyePosition;
+    [SerializeField] private Transform _target;
+    [SerializeField] private float _viewDistance = 10f;
+    [SerializeField] private float _viewAngle = 75f;
+    [SerializeField] private LayerMask _targetLayer;
+
+    public bool CanSeePlayer{ get; private set; }
+    public Vector3 LastSeenPosition { get; private set; }
+
+    private void Update()
+    {
+        CanSeePlayer = CheckSight();
+    }
+
+    public bool CheckSight()
+    {
+        if (_target == null) 
+        {
+            return false;
+        }
+
+        //pengecekan jarak
+        float distance = Vector3.Distance(_eyePosition.position, _target.position);
+        if( distance > _viewDistance )
+        {
+            return false;
+        }
+        //pengecekan FOV
+        Vector3 directionToTarget = (_target.position - _eyePosition.position).normalized;
+        float angle = Vector3.Angle(_eyePosition.forward, directionToTarget);
+        
+        if( angle > _viewAngle / 0.5f )
+        {
+            return false;
+        }
+
+        //pengecekan Raycast
+        bool isSightTarget = Physics.Raycast(_eyePosition.position, directionToTarget.normalized, out RaycastHit hit, _viewDistance, _targetLayer);
+        if(isSightTarget)
+        {
+            if(hit.transform == _target)
+            {
+                LastSeenPosition = _target.position;
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private void OnDrawGizmos()
+    {
+        if(_eyePosition == null)
+        {
+            return;
+        }
+
+        Gizmos.color = Color.red;
+        bool isSightTarget = CheckSight();
+        if ( isSightTarget == true )
+        {
+            Gizmos.color = Color.green;
+        }
+
+        Gizmos.DrawWireSphere(_eyePosition.position, _viewDistance);
+
+        Vector3 leftBoundary = Quaternion.Euler(0, -_viewAngle / 2f, 0) * _eyePosition.forward;
+        Vector3 rightBoundary = Quaternion.Euler(0, _viewAngle / 2f, 0) * _eyePosition.forward;
+
+        Gizmos.DrawLine(_eyePosition.position, leftBoundary * _viewDistance);
+        Gizmos.DrawLine(_eyePosition.position, rightBoundary * _viewDistance);
+
+    }
+}
