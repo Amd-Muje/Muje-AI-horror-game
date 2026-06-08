@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 148
+  controlID: 27
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -490,7 +490,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Ghost Ai
+    - Assets/Config
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Game/Ghost Ai
+  - Assets/Config
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Learn\Agate\Muje-AI-horror-game
   m_LockTracker:
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6e20000
-    m_LastClickedID: 58054
-    m_ExpandedIDs: 0000000020e2000022e2000024e2000026e2000028e200002ae200002ce200002ee2000030e2000032e2000034e2000036e2000038e200003ae200003ce20000
+    m_SelectedIDs: d6e20000
+    m_LastClickedID: 58070
+    m_ExpandedIDs: 0000000030e2000032e2000034e2000036e2000038e200003ae200003ce200003ee2000040e2000042e2000044e2000046e2000048e200004ae200004ce20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -539,7 +539,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000020e2000022e2000024e2000026e2000028e200002ae200002ce200002ee2000030e2000032e2000034e2000036e2000038e200003ae200003ce20000
+    m_ExpandedIDs: 0000000030e2000032e2000034e2000036e2000038e200003ae200003ce200003ee2000040e2000042e2000044e2000046e2000048e200004ae200004ce20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000000000052b20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1347,9 +1347,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -7.5933647, y: 6.94348, z: -3.4895086}
+    m_Target: {x: 0.533126, y: 2.4649153, z: -11.171314}
     speed: 2
-    m_Value: {x: -7.5933647, y: 6.94348, z: -3.4895086}
+    m_Value: {x: 0.533126, y: 2.4649153, z: -11.171314}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1395,13 +1395,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20534177, y: -0.724515, z: 0.24370667, w: -0.6112878}
+    m_Target: {x: 0.02518253, y: 0.76612973, z: -0.030180218, w: 0.6416157}
     speed: 2
-    m_Value: {x: 0.20534177, y: 0.7245151, z: -0.24370667, w: 0.6112878}
+    m_Value: {x: 0.025182528, y: 0.76612973, z: -0.030180218, w: 0.6416157}
   m_Size:
-    m_Target: 0.34203985
+    m_Target: 6.2481585
     speed: 2
-    m_Value: 0.34203985
+    m_Value: 6.2481585
   m_Ortho:
     m_Target: 0
     speed: 2
