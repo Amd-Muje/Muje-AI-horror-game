@@ -31,4 +31,9 @@ public class PlayerCharacter : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+
+    public void Death()
+    {
+        Debut.Log("Player Died");
+    }
 }

@@ -41,4 +41,13 @@ public class GhostAIController : MonoBehaviour
         yield return new WaitForEndOfFrame();
         gameObject.SetActive(false);
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerCharacter character = collision.gameObject.GetComponent<PlayerCharacter>();
+            character?.Death();
+        }
+    }
 }
