@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tesgamedev\\Ai-Horror-Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D13EB8-0EDC-071B-EC62-03B86C961081}|Assembly-CSharp.csproj|d:\\tesgamedev\\ai-horror-game\\assets\\game\\scripts\\player\\playercharacterstamina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D13EB8-0EDC-071B-EC62-03B86C961081}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\player\\playercharacterstamina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D13EB8-0EDC-071B-EC62-03B86C961081}|Assembly-CSharp.csproj|d:\\tesgamedev\\ai-horror-game\\assets\\game\\scripts\\player\\playercharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D13EB8-0EDC-071B-EC62-03B86C961081}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\player\\playercharactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D13EB8-0EDC-071B-EC62-03B86C961081}|Assembly-CSharp.csproj|D:\\tesgamedev\\Ai-Horror-Game\\assets\\game\\scripts\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D13EB8-0EDC-071B-EC62-03B86C961081}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\scripts\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerCharacterStamina.cs",
+              "DocumentMoniker": "D:\\tesgamedev\\Ai-Horror-Game\\Assets\\game\\Scripts\\Player\\PlayerCharacterStamina.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\Scripts\\Player\\PlayerCharacterStamina.cs",
+              "ToolTip": "D:\\tesgamedev\\Ai-Horror-Game\\Assets\\game\\Scripts\\Player\\PlayerCharacterStamina.cs",
+              "RelativeToolTip": "Assets\\game\\Scripts\\Player\\PlayerCharacterStamina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T04:27:14.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerCharacterMovement.cs",
+              "DocumentMoniker": "D:\\tesgamedev\\Ai-Horror-Game\\Assets\\game\\Scripts\\Player\\PlayerCharacterMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\Scripts\\Player\\PlayerCharacterMovement.cs",
+              "ToolTip": "D:\\tesgamedev\\Ai-Horror-Game\\Assets\\game\\Scripts\\Player\\PlayerCharacterMovement.cs",
+              "RelativeToolTip": "Assets\\game\\Scripts\\Player\\PlayerCharacterMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T02:25:40.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\tesgamedev\\Ai-Horror-Game\\Assets\\game\\Scripts\\Input\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\game\\Scripts\\Input\\InputManager.cs",
+              "ToolTip": "D:\\tesgamedev\\Ai-Horror-Game\\Assets\\game\\Scripts\\Input\\InputManager.cs",
+              "RelativeToolTip": "Assets\\game\\Scripts\\Input\\InputManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T09:32:11.868Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

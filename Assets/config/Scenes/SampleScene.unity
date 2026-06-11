@@ -1277,7 +1277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2341294123242884555, guid: 6924745a509f7b746bc74f3d4548b1aa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.16
+      value: -14.55
       objectReference: {fileID: 0}
     - target: {fileID: 2341294123242884555, guid: 6924745a509f7b746bc74f3d4548b1aa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1318,7 +1318,7 @@ PrefabInstance:
     - target: {fileID: 8547232091050858417, guid: 6924745a509f7b746bc74f3d4548b1aa, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: a02b0bb87e7d93e478b2fe092b98a696, type: 2}
+      objectReference: {fileID: 9100000, guid: 29f9866b05823c14bac0353b7800d8e4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1420,8 +1420,8 @@ MonoBehaviour:
   m_Graph: {fileID: -3757020570214181607, guid: cd282598b8bb7cb4dae24a553c7ac868, type: 2}
   m_BlackboardVariableOverridesList:
   - rid: 4551189950850400338
-  - rid: 4551189950850400350
   - rid: 4551189950850400428
+  - rid: 4551190011667284091
   m_OriginalGraph: {fileID: -3757020570214181607, guid: cd282598b8bb7cb4dae24a553c7ac868, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -1436,14 +1436,6 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 384331627}
-    - rid: 4551189950850400350
-      type: {class: 'BlackboardVariable`1[[GhostAIController, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 1334708485391365007
-          m_Value1: 8193427975447902008
-        Name: AI Controller
-        m_Value: {fileID: 384331630}
     - rid: 4551189950850400428
       type: {class: 'BlackboardVariable`1[[UnityEngine.Transform, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -1452,6 +1444,14 @@ MonoBehaviour:
           m_Value1: 9746703965467347500
         Name: Target
         m_Value: {fileID: 1809875376}
+    - rid: 4551190011667284091
+      type: {class: 'BlackboardVariable`1[[GhostAIController, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1334708485391365007
+          m_Value1: 8193427975447902008
+        Name: AI Controller
+        m_Value: {fileID: 384331630}
 --- !u!195 &384331632
 NavMeshAgent:
   m_ObjectHideFlags: 0

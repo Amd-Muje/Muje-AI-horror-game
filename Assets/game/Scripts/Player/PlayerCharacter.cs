@@ -34,6 +34,6 @@ public class PlayerCharacter : MonoBehaviour
 
     public void Death()
     {
-        Debut.Log("Player Died");
+        Debug.Log("Player Died");
     }
 }
